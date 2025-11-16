@@ -43,6 +43,7 @@ public class Duck {
 		}
 	}
 
+	/* We can use the toString method to print something that is more readable */
 	@Override
 	public String toString() {
 		return "My name is " + name + " I like to eat " + favoriteFood +
