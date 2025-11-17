@@ -20,14 +20,16 @@ public class Disease {
 		this.curable = curable;
 	}
 	
-	/* GETTERS */
+	/* GETTERS 
+	 * - Used when we want to access private member variables from outside the class
+	*/
 	
 	public boolean isCurable() {
-		return curable;
+		return this.curable;
 	}
 	
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	
 }

@@ -5,6 +5,7 @@ public class Taco {
 	String filling;
 	String tortilla;
 
+	/* Setters always have a void return type */
 	public void setFilling(String filling) {
 		this.filling = filling;
 	}
